@@ -20,6 +20,7 @@ cd ..
 # install additional lib
 pip install tensorflow-hub
 python -m spacy download en 
+pip install sklearn-crfsuite
 
 # training model
 cd chatbot-rasa
